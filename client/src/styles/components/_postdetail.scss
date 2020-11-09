@@ -1,0 +1,126 @@
+.postdetail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.postdetail-container {
+    width: 100%;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: 4fr 3fr;
+    grid-gap: 10px;
+}
+@media screen and (max-width: 800px) {
+    .postdetail-container {
+        width: 100%;
+        margin: 10px auto;
+        padding: 10px;
+        border-radius: 5px;
+        grid-template-columns: 1fr;
+    }
+}
+
+// Images
+.postdetail__images {
+    width: 100%;
+}
+
+.post__largeimage {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    background-color: $independence;
+    border-radius: 10px;
+    border: 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+.post__largeimage__image {
+    max-height: 100%;
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.thumbnails {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.thumbnail {
+    width: 15%;
+    margin: 10px 0.8333%,
+}
+
+.thumbnail__image {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.thumbnail__image-active {
+    width: 100%;
+    box-shadow: 0px 2px 10px 2px #888887;
+    border: 0px;
+    border-radius: 5px;
+}
+
+// Information
+.postdetail__information {
+    width: 100%;
+    margin-right: 1%;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.information__postby {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+
+.information__avatar-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.information__avatar {
+    width: 50px;
+    height: 50px;
+}
+
+.information__avatar-avatar {
+    width: 100%;
+    border-radius: 250px;
+}
+
+.information__phonenumber {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $space-cadet;
+    border-radius: 10px;
+    gap: 20px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+// Information Description
+.information__postdescription {
+    width: 80%;
+    margin: auto;
+    background-color: $space-cadet;
+    color: white;
+    border-radius: 10px;
+    border: 0px;
+}

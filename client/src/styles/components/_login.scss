@@ -1,0 +1,92 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.login {
+    width: 350px;
+    border-radius: 10px;
+    border: 1px solid $silver-pink;
+    background-color: $space-cadet;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    row-gap: 20px;
+    grid-template-columns: 1fr;
+    padding: 20px;
+}
+
+.login__login {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 10px;
+}
+
+.login__login input {
+    height: 30px;
+    padding-left: 20px;
+}
+
+.login__hr {
+    width: 350px;
+}
+
+.login__login button {
+    width: 150px;
+    height: 30px;
+    margin: auto;
+    border-radius: 10px;
+    border: 0px;
+    background-color: $silver-pink;
+    color: white;
+}
+
+.login__facebook {
+    width: 350px;
+    height: 40px;
+    background-color: #3B5998;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login__facebook a {
+    color: white;
+    text-decoration: none;
+}
+
+.login__signup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login__signup button {
+    width: 350px;
+    height: 40px;
+    background-color: $silver-pink;
+    color: white;
+    border: 0px;
+}
+
+@media screen and (max-width: 700px) {
+    .login {
+        width: 300px;
+    }
+    .login__facebook {
+        width: 280px;
+    }
+    .login__signup button {
+        width: 280px;
+    }
+    .login__login input {
+        width: 280px;
+        margin: auto;
+    }
+    .login__hr {
+        width: 280px;
+    }
+}

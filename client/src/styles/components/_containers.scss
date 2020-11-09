@@ -1,0 +1,25 @@
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 10px;
+
+}
+
+.container-body {
+    max-width: 1230px;
+    margin: 0 auto;
+}
+
+.header-background {
+    background-color: $independence;
+    height: 520px;
+    margin: 0;
+    padding-top: 10px;
+}
+
+
+@media screen and (max-width: 700px) {
+    .header-background {
+        height: 670px;
+    }
+}

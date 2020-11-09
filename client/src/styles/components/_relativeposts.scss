@@ -1,0 +1,37 @@
+.relativepost-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.relativepost {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 5fr;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    border: 0px;
+    background-color: $space-cadet;
+    gap: 10px;
+}
+
+.relativepost:hover {
+    cursor: pointer;
+    box-shadow: 0px 2px 10px 2px #888887;
+}
+
+.relativepost__image {
+    width: 70px;
+}
+.relativepost__image img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.relativepost__info {
+    display: flex;
+    gap: 20px;
+}

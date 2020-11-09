@@ -1,0 +1,63 @@
+.signup-facebook-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.signup-facebook {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 350px;
+    border-radius: 10px;
+    border: 1px solid $silver-pink;
+    align-items: center;
+    justify-content: center;
+    row-gap: 20px;
+    padding: 20px 0;
+    background-color: $independence;
+}
+
+.signup-facebook__fields {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;
+    row-gap: 15px;
+}
+
+.signup-facebook__fields-data {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;
+    row-gap: 15px;
+}
+
+.signup-facebook__fields-data h3 {
+    margin: 0;
+}
+
+.signup-facebook__fields-form {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;
+    row-gap: 15px;
+    width: 300px;
+    margin: auto;
+}
+
+.signup-facebook__fields-form input {
+    height: 30px;
+}
+
+.signup-facebook__fields-form button {
+    height: 30px;
+    width: 150px;
+    border-radius: 10px;
+    border: 0px;
+    background-color: $silver-pink;
+    margin: auto;
+}

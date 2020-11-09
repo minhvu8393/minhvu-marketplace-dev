@@ -1,0 +1,52 @@
+@import './base/base.scss';
+@import './components/post.scss';
+@import './components/navbar.scss';
+@import './components/header.scss';
+@import './components/postdetail.scss';
+@import './components/containers.scss';
+@import './components/banner.scss';
+@import './components/searchFilters.scss';
+@import './components/posts.scss';
+@import './base/settings.scss';
+@import './components/filtersv2';
+@import './components/login';
+@import './components/signupfacebook';
+@import './components/createpost';
+@import './components/loading';
+@import './components/bannerandfilter';
+@import './components/userprofile';
+@import './components/relativeposts';
+@import './components/signup';
+@import './components/error';
+
+.ReactModal__Overlay {
+    opacity: 0;
+    transition: opacity 200ms ease-in-out;
+}
+
+.ReactModal__Overlay--after-open{
+    opacity: 1;
+}
+
+.ReactModal__Overlay--before-close{
+    opacity: 0;
+}
+
+.ReactModal__Body--open {
+    overflow: hidden;
+}
+
+.modal__button {
+    width: 100px;
+    height: 28px;
+    background-color: $silver-pink;
+    color: white;
+    border-radius: 10px;
+    border: 0px;
+    position: fixed;
+}
+
+.search__icon {
+    position: absolute;
+    margin-top: 10px;
+}

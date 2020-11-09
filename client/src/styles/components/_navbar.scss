@@ -1,0 +1,74 @@
+.navbar {
+    font-size: 22px;
+    width: 80%;
+    margin-right: 0;
+}
+
+.navbar__item {
+    float: right;
+}
+
+// NAVBAR USER
+.navbar__item-user__avatar {
+    padding-top: 5px;
+}
+    .navbar__item-user__avatar-avatar {
+        width: 50px;
+        height: 50px;
+    }
+        .navbar__item-user__avatar-avatar img {
+            width: 100%;
+            border-radius: 200px;
+            border: 0px;
+        }
+.navbar__createpost {
+    background-color: black; 
+    padding: 0 5px; 
+    border-radius: 10px;
+}
+.navbar__item-user__menu {
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 200px;
+    border-radius: 10px;
+    position: absolute;
+    display: block;
+    color: white
+}
+.navbar__item-user__avatar:hover {
+    cursor: pointer;
+}
+
+.navbar__item-user__menu h3:hover {
+    color: $silver-pink;
+    text-decoration: none;
+}
+
+.navbar__item-user__menu h3:active {
+    outline: none;
+    text-decoration: none;
+}
+
+.navbar h3 {
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.navbar h3:hover {
+    cursor: pointer;
+}
+
+.navbar__link {
+    margin-left: 25px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+@media screen and (max-width: 800px) {
+    .navbar__createpost {
+        display: none;
+    }
+    .navbar__item-user__avatar {
+        padding-right: 60px;
+    }
+}
